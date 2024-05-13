@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "b7d037220f20b316",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff90528adee35340",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5013702d2ec694d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GoF/Padrões de projetos GoF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f59a74a20c8a35d",
+    "type": "split",
+    "children": [
+      {
+        "id": "16d7eecdbfbe2323",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0a2cecd7d86338e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "da7d22563307318b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "127905f4161e40d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39b077b71ccb671a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f7fb3a08de5bfe4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2e3f0ea8dcb392c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GoF/Padrões de projetos GoF.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f1cc21456be935f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GoF/Padrões de projetos GoF.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab7343741b872c8b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b20bbd54aad57a64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GoF/Padrões de projetos GoF.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5013702d2ec694d9",
+  "lastOpenFiles": [
+    "GoF/Pasted image 20230816102435.png",
+    "GoF/Padrões de projetos GoF.md",
+    "Pasted image 20230817211408.png",
+    "Typescript/src/GoF/src/behavioral/memento.md",
+    "typescript/src/GoF/src/behavioral/memento.md",
+    "Typescript/src/GoF/src/behavioral",
+    "Typescript/src/GoF/src",
+    "Typescript/src/GoF",
+    "Typescript/src",
+    "typescript/src/GoF/src/behavioral",
+    "typescript/src/GoF/src",
+    "typescript/src/GoF",
+    "typescript/src",
+    "1.Estado-intrínseco.md",
+    "1..md",
+    "intrínseco.md",
+    "Typescript/TypeScript - Resumo documentação.md",
+    "UML Simples.md",
+    "Untitled.canvas",
+    "2023-08-14.md",
+    "dwqdq.md",
+    "React/Resumo da Documentação do React.md",
+    "Estado.md",
+    "Typescript/TypeScript genéricos resumo.md",
+    "Typescript/TypeScript POO - Programação orientada a Objetos.md",
+    "Typescript/TypeScript Testes com Jest.md",
+    "GoF"
+  ]
+}
