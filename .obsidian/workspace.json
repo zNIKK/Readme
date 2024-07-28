@@ -64,7 +64,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "[\"tags\"]",
+=======
+                "query": "MBR",
+>>>>>>> 7969209 (vault backup: 2024-07-28 15:29:36)
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,7 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "ae5b068b94073802",
+=======
+  "active": "ababa66304be94f7",
+>>>>>>> 7969209 (vault backup: 2024-07-28 15:29:36)
   "lastOpenFiles": [
 <<<<<<< HEAD
     "conflict-files-obsidian-git.md",
