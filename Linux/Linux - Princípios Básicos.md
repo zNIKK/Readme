@@ -172,10 +172,7 @@ ele define para o "boot loader" a estrutura nas partições nas unidades de disc
 
 é uma organização de partição em computadores mais novos. 
 
-
-
-
-## Atalhos
+## AtalhoA estrutus
 
 ### setas
 
