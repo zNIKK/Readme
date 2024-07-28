@@ -155,7 +155,8 @@ uma partição é uma forma digital de dividir o seu disco em partes
 
 #### Primárias
 
-As principais partições, está presente o sistema operacional ou o que determina se a partição é bootavel é chamada de **flags**
+As principais partições, está geralmente presente o sistema operacional o que determina se a partição é bootavel é chamada de **flags**
+
 #### Lógicas
 
 #### Estendidas
