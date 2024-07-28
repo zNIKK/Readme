@@ -496,11 +496,13 @@ Permite que intercepte uma rota e mostre ela no contexto de outra rota. Exemplo:
 
 Uma renderização escreve o código que você escreve em uma interface de usuário.
 
-### Componentes de Cliente
+### Componentes de Cliente("use client")
 
 Usa-se `"use client"` no topo do arquivo.
 
 Esses componentes permite que você escreva um UI interativo em client **opt-in**, significa que você tem que decidir explicitamente que o componente React deve ser renderizado no cliente.
+
+Toda vez que um componente for ouvir algum evento do cliente usa o `"use client"`
 
 #### Benefícios
 
@@ -508,9 +510,12 @@ Esses componentes permite que você escreva um UI interativo em client **opt-in*
 
 - **Browser APIs**: Componentes Client tem acesso ao API de navegador, como geolocalização, ou até mesmo `localStorage`.
 
-### Componentes de Servidores
+### Componentes de Servidores("use server")
 
-São Componentes React que permitem escrever uma UI qye pode ser renderizada e opcionalmente armazenada em cache no servidor. em Next.js, o trabalho de renderização e dividido por rota
+São Componentes React que permitem escrever uma UI que pode ser renderizada e opcionalmente armazenada em cache no servidor. em Next.js, o trabalho de renderização e dividido por rota
+
+Por padrão o next é todo feito pro lado do servidor sem usar javascript.
+
 ## Estilizando
 
 ### Como colocar fonts
@@ -711,7 +716,7 @@ No entanto, tem uma desvantagem confiando apenas no padrão de JavaScript:
 
 #### Renderização Estática
 
-com renderização estática, a busca de dados e a própria renderização acontece no servidor na hora do build (quando faz  o deploy) ou durante a revalidação.
+com renderização estática, a busca de dados e a própria renderização acontece no servidor na hora do build (quando faz o deploy) ou durante a revalidação.
 O resultado pode então ser distribuído e armazenado em cache em uma [Content Delivery Network (CDN)](https://nextjs.org/docs/app/building-your-application/rendering/server-components#static-rendering-default).
 
 ![[Prints/Captura de tela de 2024-02-29 17-47-13.translated.jpg]]
