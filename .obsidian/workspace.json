@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "NodeJs.md",
                 "mode": "source",
                 "source": false
@@ -26,6 +27,9 @@
               "type": "markdown",
               "state": {
                 "file": "NodeJs.md",
+=======
+                "file": "Linux/Programas Linux.md",
+>>>>>>> c94947b (vault backup: 2024-07-28 15:28:52)
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +101,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "NodeJs.md",
+=======
+                "file": "Linux/Programas Linux.md",
+>>>>>>> c94947b (vault backup: 2024-07-28 15:28:52)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +122,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "NodeJs.md",
+=======
+                "file": "Linux/Programas Linux.md",
+>>>>>>> c94947b (vault backup: 2024-07-28 15:28:52)
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "NodeJs.md"
+=======
+                "file": "Linux/Programas Linux.md"
+>>>>>>> c94947b (vault backup: 2024-07-28 15:28:52)
               }
             }
           },
@@ -183,8 +199,16 @@
   },
   "active": "ae5b068b94073802",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "conflict-files-obsidian-git.md",
     "SSH Server.md",
+=======
+    "Linux/Linux - Para Desenvolvedores.md",
+    "Linux/Linux - Princípios Básicos.md",
+    "Linux/Programas Linux.md",
+    "conflict-files-obsidian-git.md",
+    "Linux/bashrc.md",
+>>>>>>> c94947b (vault backup: 2024-07-28 15:28:52)
     "Untitled.md",
     "NodeJs.md",
     "Cracks.md",
