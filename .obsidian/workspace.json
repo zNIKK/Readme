@@ -181,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d73e8b7503bf8cee",
+  "active": "ae5b068b94073802",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "SSH Server.md",
     "Untitled.md",
     "NodeJs.md",
@@ -193,7 +194,6 @@
     "Linux/Servidor Linux/Servidor Linux.md",
     "Linux/Linux - Princípios Básicos.md",
     "Linux/Programas Linux.md",
-    "conflict-files-obsidian-git.md",
     "Linux/bashrc.md",
     "Linux/Linux - Para Desenvolvedores.md",
     "Next/Strapi.md",
