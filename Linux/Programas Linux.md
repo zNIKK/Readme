@@ -168,6 +168,32 @@ Este comando permite alterar o nome do dono e/ou do grupo de **arquivos**
 - **−−help** : exibe opções do comando.
 - **−−version** : exibe informações sobre o aplicativo.
 
+### $`mhwd-kernel`
+
+```bash
+mhwd-kernel [opções] [kernel]
+```
+
+Instala e remove um novo kernel. Mostra todos os kernels instalados e os disponíveis
+
+#### Parâmetros
+
+##### `-i`
+
+- instala um novo kernel
+
+##### `-l`
+
+- Lista todos os kernels disponíveis
+
+##### `-li`
+
+- Lista todos os kernels instalados
+
+##### `-r`
+
+- remove um kernel
+
 ### $`clear` (Limpar)
 
 - limpa o terminal
@@ -399,7 +425,7 @@ touch *
 
 - inclui os processos que não foram iniciados pelo usuário
 
-### df
+### $``df``(disk free)
 
 ```bash
 df [opções]
@@ -516,11 +542,14 @@ Este comando pesquisa **arquivos** em uma hierarquia de diretórios.
 
 - Linguagem de programação interpretada voltada a processar dados e textos
 
-### $`service service_name command`(systemctl)
+### $systemctl
 
+```bash
+systemctl [status] [service]
+```
 - Usado para iniciar, parar ou ver um banco de dados em serviço
 
-- Exemplo: `sudo service postgresql start`
+- Exemplo: `sudo systemctl start postgresql`
 - iniciar o postgresql
 
 Usado também para "resetar", "startar" ou ver um status do aplicativo linux
@@ -532,6 +561,7 @@ sudo systemctl stop nginx
 sudo systemctl restart nginx
 sudo systemctl reload nginx
 ```
+
 ## Referência global
 
 ### `*x*`
@@ -650,7 +680,5 @@ empty.rules  ip6tables.rules  iptables.rules  simple_firewall.rules
 
 # Melhores programas
 
-## Terminal
 
-- **Konsole** : terminal voltada a produtividade e o melhor na minha opnião 
 

@@ -11,8 +11,12 @@
             "id": "d73e8b7503bf8cee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux - Princípios Básicos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linux/Linux - Princípios Básicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linux/Linux - Princípios Básicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linux/Linux - Princípios Básicos.md"
+              }
             }
           },
           {
@@ -150,8 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae5b068b94073802",
+  "active": "d73e8b7503bf8cee",
   "lastOpenFiles": [
+    "Linux/Programas Linux.md",
+    "Linux/Linux - Princípios Básicos.md",
     "Untitled.md",
     "Next/Strapi.md",
     "Next/Next.md",
@@ -171,7 +181,6 @@
     "Pasted image 20240315124549.png",
     "React/Resumo da Documentação do React.md",
     "Linux/Linux - Para Desenvolvedores.md",
-    "Linux/Linux - Princípios Básicos.md",
     "Python",
     "Comunismo.md",
     "Next/Prints/Pasted image 20240209112437.png",
@@ -192,7 +201,6 @@
     "arquivos-de-exemplo/eslintrc.md",
     "arquivos-de-exemplo",
     "arquivos-de-exemplo/eslintrc.js.md",
-    "arquivos.md",
     "\"",
     "\".",
     "Como começar um projeto/arquivos de exemplo/eslintrc.js",

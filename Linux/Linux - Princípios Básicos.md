@@ -147,6 +147,33 @@ alias rm="rm -I"
 # por padrão agora quando eu executar "rm" ele usará o parâmetro -I 
 ```
 
+## Particionamento
+
+uma partição é uma forma digital de dividir o seu disco em partes
+
+### organização de partição
+
+ele define para o "boot loader" a estrutura nas partições nas unidades de discos
+
+- dizendo a elas quantas partições existem
+- onde começam e onde terminam
+- se existe algum sistema operacional disponível  
+#### MBR (Master Boot Record)
+
+é uma organização de partição em computadores mais antigos. 
+
+- Ele permite que crie 4 partições primarias e mesmo que exista haja espaço disponível ele fica inutilizável.
+
+- Usa 32 bits para guardar informações do que limita o tamanho máximo para **2tb**
+
+- a MBR é um local único no sentido de unitário ou seja se ela corromper, você pode ter problemas para inicializar o sistema operacional
+
+#### GPT ()
+
+é uma organização de partição em computadores mais novos. 
+
+
+
 
 ## Atalhos
 
