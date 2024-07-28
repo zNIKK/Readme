@@ -172,9 +172,10 @@ ele define para o "boot loader" a estrutura nas partições nas unidades de disc
 
 é uma organização de partição em computadores mais novos. 
 
-A estrutura GPT é de 64 bits e permite  partições de até 1zb
+- A estrutura GPT é de 64 bits e permite  partições de até 1zb
 
-Ele também tem o chamado **secondary GPT header** funciona como um backup do GPT para que quando se comrrompa 
+- Ele também tem o chamado **secondary GPT header** funciona como um backup do GPT para que não se corrompa.
+
 
 
 ## Atalhos
