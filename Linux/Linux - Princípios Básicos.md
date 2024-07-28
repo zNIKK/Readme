@@ -172,7 +172,10 @@ ele define para o "boot loader" a estrutura nas partições nas unidades de disc
 
 é uma organização de partição em computadores mais novos. 
 
-## AtalhoA estrutus
+
+A estrutura GPT é de 64 bits e permite  partições de até 1
+
+## Atalhos
 
 ### setas
 
