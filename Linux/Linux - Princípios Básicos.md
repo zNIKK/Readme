@@ -155,7 +155,11 @@ uma partição é uma forma digital de dividir o seu disco em partes
 
 #### Primárias
 
-#### Logicas
+As principais partições, está presente o sistema operacional
+#### Lógicas
+
+#### Estendidas
+
 ### organização de partição
 
 ele define para o "boot loader" a estrutura nas partições nas unidades de discos
