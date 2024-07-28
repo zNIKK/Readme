@@ -151,6 +151,11 @@ alias rm="rm -I"
 
 uma partição é uma forma digital de dividir o seu disco em partes
 
+### tipos de partições
+
+#### Primárias
+
+#### Logicas
 ### organização de partição
 
 ele define para o "boot loader" a estrutura nas partições nas unidades de discos
