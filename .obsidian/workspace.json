@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux - Princípios Básicos.md",
+                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e90abcec6711341b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux - Princípios Básicos.md",
+                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux - Princípios Básicos.md",
+                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux - Princípios Básicos.md"
+                "file": "Linux/Servidor Linux/Servidores/Servidores.md"
               }
             }
           },
@@ -161,13 +160,14 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "ae5b068b94073802",
+  "active": "d73e8b7503bf8cee",
   "lastOpenFiles": [
+    "Linux/Servidor Linux/Servidor Linux.md",
+    "Linux/Linux - Princípios Básicos.md",
     "Linux/Programas Linux.md",
     "conflict-files-obsidian-git.md",
     "Linux/bashrc.md",
     "Linux/Linux - Para Desenvolvedores.md",
-    "Linux/Linux - Princípios Básicos.md",
     "Untitled.md",
     "Next/Strapi.md",
     "Next/Next.md",
@@ -201,7 +201,6 @@
     "Next/Prints/Pasted image 20240307113628.png",
     "Next/Prints/Hierarquia de Componentes.png",
     "Como começar um projeto/Kanban sem título.md",
-    "arquivos de exemplo/eslintrc.md",
     "arquivos de exemplo",
     "arquivos-de-exemplo",
     "\"",
