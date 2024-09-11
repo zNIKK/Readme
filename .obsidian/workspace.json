@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "35aa080c4a94035d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Linux/Servidor Linux/Servidores/Servidores.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,8 +165,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "d73e8b7503bf8cee",
+  "active": "35aa080c4a94035d",
   "lastOpenFiles": [
+    "Linux/Servidor Linux/Servidores/Servidores.md",
     "Linux/Servidor Linux/Servidor Linux.md",
     "Linux/Linux - Princípios Básicos.md",
     "Linux/Programas Linux.md",
@@ -200,7 +206,6 @@
     "Next/Prints/Pasted image 20240307115951.png",
     "Next/Prints/Pasted image 20240307113628.png",
     "Next/Prints/Hierarquia de Componentes.png",
-    "Como começar um projeto/Kanban sem título.md",
     "arquivos de exemplo",
     "arquivos-de-exemplo",
     "\"",
