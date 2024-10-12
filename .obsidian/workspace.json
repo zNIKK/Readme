@@ -23,8 +23,12 @@
             "id": "35aa080c4a94035d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NodeJs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -57,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MBR",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
+                "file": "NodeJs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
+                "file": "NodeJs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Servidor Linux/Servidores/Servidores.md"
+                "file": "NodeJs.md"
               }
             }
           },
@@ -171,6 +175,8 @@
   },
   "active": "35aa080c4a94035d",
   "lastOpenFiles": [
+    "Untitled.md",
+    "NodeJs.md",
     "Linux/Servidor Linux/Servidores/Servidores.md",
     "Linux/Servidor Linux/Servidor Linux.md",
     "Linux/Linux - Princípios Básicos.md",
@@ -178,7 +184,6 @@
     "conflict-files-obsidian-git.md",
     "Linux/bashrc.md",
     "Linux/Linux - Para Desenvolvedores.md",
-    "Untitled.md",
     "Next/Strapi.md",
     "Next/Next.md",
     "Typescript/TypeScript Testes com Jest.md",
@@ -204,7 +209,6 @@
     "Next/Prints/Pasted image 20240307160341.png",
     "Next/Prints/Pasted image 20240307111920.png",
     "Next/().md",
-    "Next/Streaming um componente.md",
     "Next/Prints/Pasted image 20240307130946.png",
     "Next/Prints/Pasted image 20240307124740.png",
     "Next/Prints/Pasted image 20240307115951.png",
