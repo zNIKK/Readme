@@ -4,15 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b03bd5a36bd0adaa",
+        "id": "87c74e6e2b5ef402",
         "type": "tabs",
         "children": [
           {
-            "id": "799ad96472206fab",
+            "id": "5040f1bcc8ef15c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/obsidian-git/data.json",
+                "staged": false
+              }
             }
           }
         ]
@@ -161,8 +164,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "799ad96472206fab",
+  "active": "5040f1bcc8ef15c3",
   "lastOpenFiles": [
+    "Coisas par adicionar porque não tenho tempo.md",
     "Linux/Linux - Princípios Básicos.md",
     "Linux/Programas Linux.md",
     "Untitled.md",
@@ -203,7 +207,6 @@
     "arquivos de exemplo",
     "arquivos-de-exemplo/eslintrc.md",
     "arquivos-de-exemplo",
-    "arquivos-de-exemplo/eslintrc.js.md",
     "\"",
     "\".",
     "Como começar um projeto/arquivos de exemplo/eslintrc.js",
