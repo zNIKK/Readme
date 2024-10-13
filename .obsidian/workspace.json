@@ -31,8 +31,21 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "29eca4cac5cd9065",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4685101590999651",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NodeJs.md",
+                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NodeJs.md",
+                "file": "Linux/Servidor Linux/Servidores/Servidores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NodeJs.md"
+                "file": "Linux/Servidor Linux/Servidores/Servidores.md"
               }
             }
           },
@@ -172,7 +185,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "ae5b068b94073802",
+  "active": "d73e8b7503bf8cee",
   "lastOpenFiles": [
     "Untitled.md",
     "NodeJs.md",
