@@ -31,6 +31,7 @@
   - `path`: Manipulação de caminhos de arquivos.
   
 ### NPM (Node Package Manager)
+
 - **NPM** é o gerenciador de pacotes do Node.js, usado para instalar bibliotecas e ferramentas.
   - **Comandos comuns**:
     - `npm init`: Inicializa um projeto Node.js.
