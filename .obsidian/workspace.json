@@ -32,20 +32,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "29eca4cac5cd9065",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4685101590999651",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -166,9 +152,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "81784f61bee4c819",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -182,7 +176,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "d73e8b7503bf8cee",
