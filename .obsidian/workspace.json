@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,10 +202,14 @@
     }
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "active": "ae5b068b94073802",
 =======
   "active": "ababa66304be94f7",
 >>>>>>> 7969209 (vault backup: 2024-07-28 15:29:36)
+=======
+  "active": "ae5b068b94073802",
+>>>>>>> a9d6d91 (vault backup: 2024-07-28 15:30:36)
   "lastOpenFiles": [
 <<<<<<< HEAD
     "conflict-files-obsidian-git.md",
