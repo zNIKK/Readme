@@ -1,5 +1,8 @@
 [
   "obsidian-icon-folder",
   "obsidian-kanban",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-advanced-slides",
+  "tag-wrangler",
+  "obsidian-git"
 ]
