@@ -502,10 +502,11 @@ alias [comando_novo]='[comando_original]'
 
 - Abrevia comandos longos e complexos, para um comando da sua escolha
 
-- esse tipo de alias só funciona uma vez por terminal para que podemos deixar os alias permanentes precisamos editar o arquivo `~/.bash_aliases`. 
+- esse tipo de alias só funciona uma vez por terminal para que podemos deixar os alias permanentes precisamos editar o arquivo `~/.bash_aliases` ou o arquivo `~/.bashrc`. 
 
-- Meu arquivo de alias: [[bash_aliases]]
+- Meu arquivo de alias: [[bashrc]]
 
+- depois use o comando `source ~/.bash_aliases`
 ### $`grep`(Globally Search a Regular Expression and Print)
 
 - Localizar a palavra no arquivo
