@@ -29,7 +29,6 @@
   - `fs`: Manipulação de arquivos.
   - `http`: Criação de servidores HTTP.
   - `path`: Manipulação de caminhos de arquivos.
-  
 ### NPM (Node Package Manager)
 
 - **NPM** é o gerenciador de pacotes do Node.js, usado para instalar bibliotecas e ferramentas.
