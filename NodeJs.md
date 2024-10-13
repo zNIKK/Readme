@@ -6,8 +6,11 @@
 
 ## Características
 - **Single-threaded**: Usa um único thread para processar operações, mas consegue lidar com muitas conexões simultâneas de forma eficiente.
+
 - **Event-driven**: Usa um modelo de I/O orientado a eventos, tornando-o eficiente para aplicações de I/O intensivo (como servidores web).
+
 - **Non-blocking I/O**: Executa operações de entrada/saída de forma assíncrona, sem bloquear o thread principal, permitindo melhor desempenho em operações de leitura/escrita de arquivos ou rede.
+
 - **Cross-platform**: Funciona em várias plataformas (Windows, macOS, Linux).
 
 ## Principais Conceitos
