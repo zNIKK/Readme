@@ -11,10 +11,11 @@
             "id": "d73e8b7503bf8cee",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": false
+                "file": "NodeJs.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -59,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NodeJs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NodeJs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NodeJs.md"
+              }
             }
           },
           {
@@ -178,9 +183,13 @@
   },
   "active": "d73e8b7503bf8cee",
   "lastOpenFiles": [
-    "Linux/Servidor Linux/Servidores/Servidores.md",
+    "SSH Server.md",
     "Untitled.md",
     "NodeJs.md",
+    "Cracks.md",
+    "Como Começar um Projeto.md",
+    "Coisas par adicionar porque não tenho tempo.md",
+    "Linux/Servidor Linux/Servidores/Servidores.md",
     "Linux/Servidor Linux/Servidor Linux.md",
     "Linux/Linux - Princípios Básicos.md",
     "Linux/Programas Linux.md",
@@ -198,20 +207,16 @@
     "Como começar um projeto/arquivos de exemplo/eslintrc.md",
     "Como começar um projeto/Como Começar um Projeto.md",
     "Como começar um projeto/arquivos de exemplo/prettierrc.js.md",
-    "Como Começar um Projeto.md",
     "Python/Python.md",
     "Python/Lógica de programação(com Python).md",
     "Python/Lógica de programação (com python).md",
     "Pasted image 20240315124549.png",
-    "React/Resumo da Documentação do React.md",
     "Python",
-    "Comunismo.md",
     "Next/Prints/Pasted image 20240209112437.png",
     "Next/Prints/Captura de tela de 2024-02-29 17-47-13.translated.jpg",
     "Next/Prints",
     "Next/Prints/Pasted image 20240307160341.png",
     "Next/Prints/Pasted image 20240307111920.png",
-    "Next/().md",
     "Next/Prints/Pasted image 20240307130946.png",
     "Next/Prints/Pasted image 20240307124740.png",
     "Next/Prints/Pasted image 20240307115951.png",
