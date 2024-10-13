@@ -5,6 +5,7 @@
 - **Motivação**: Criar um ambiente para executar JavaScript fora do navegador, especialmente para o backend.
 
 ## Características
+
 - **Single-threaded**: Usa um único thread para processar operações, mas consegue lidar com muitas conexões simultâneas de forma eficiente.
 
 - **Event-driven**: Usa um modelo de I/O orientado a eventos, tornando-o eficiente para aplicações de I/O intensivo (como servidores web).
