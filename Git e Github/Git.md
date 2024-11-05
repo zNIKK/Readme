@@ -27,3 +27,9 @@ Usando esse comando os arquivos são mandados para a pasta git.
 ## git commit -m "MSG"
 
 Usando esse comando git criara uma nova versão para o seus arquivos com o argumento `-m` para mandar mensagens personalizadas ou atualizando do que mudou. 
+
+
+lembrar da sua conta toda vez que fizer [push]
+```bash
+git config --global credential.helper store
+```
