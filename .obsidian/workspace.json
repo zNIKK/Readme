@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "917282ff84edaf41",
+        "id": "b06f18d48c3cae99",
         "type": "tabs",
         "children": [
           {
-            "id": "678698ad09670b4b",
+            "id": "f9307164079d3feb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
+            }
+          },
+          {
+            "id": "aed455f6160ae487",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/obsidian-git/data.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (data.json)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -35,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -88,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -99,7 +126,9 @@
               "state": {
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -110,7 +139,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -122,7 +153,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -130,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -138,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -161,6 +198,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "678698ad09670b4b",
-  "lastOpenFiles": []
+  "active": "aed455f6160ae487",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "React Native/imagens/Componentes React Native.png",
+    "React Native/imagens",
+    "React Native/React native.md",
+    "React Native"
+  ]
 }
