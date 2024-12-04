@@ -67,6 +67,9 @@ Estes componentes são semelhantes aos tags de HTML, mas mapeiam diretamente par
 
 ![[imagens/Componentes React Native.png]]
 
+
+# [[Componentes React Native]]
+
 ---
 
 ## Estrutura de arquivos e pastas
@@ -80,8 +83,8 @@ A estrutura do React Native consiste em:
 - **/constants** - Estilização
 - **app.json** - arquivo de configuração
 
-## Navegação
-
+# Navegação
+Para navegação entre telas, o React Native utiliza a biblioteca `react-navigation`.
 
 ### **Estrutura de Navegação**
 
@@ -165,410 +168,252 @@ Para navegar entre telas, você usa o método `navigation.navigate()` fornecido 
 - **Tab Navigation**: Usa abas para alternar entre diferentes seções de uma aplicação.
 - **Drawer Navigation**: Usa um menu que desliza da lateral da tela para navegação em diferentes áreas do app.
 
-# Instalação
 
-## Pré-requisitos
+
+## Instalação:
+```bash
+npm install @react-navigation/native
+npm install @react-navigation/stack
+```
+
+## Hooks
+
+No React Native, a navegação é frequentemente gerenciada usando a biblioteca **React Navigation**, que oferece uma série de hooks para facilitar a navegação entre telas. Abaixo, estão listados os hooks mais comuns usados para navegação com **React Navigation**:
+
+### 1. **useNavigation**
+O `useNavigation` é um hook que fornece acesso ao objeto de navegação. Ele permite navegar entre telas de qualquer lugar no seu componente, sem a necessidade de passar explicitamente o objeto `navigation` como prop.
+
+```javascript
+import { useNavigation } from '@react-navigation/native';
+
+const MyComponent = () => {
+  const navigation = useNavigation();
+
+  const navigateToDetails = () => {
+    navigation.navigate('Details');
+  };
+
+  return (
+    <Button title="Go to Details" onPress={navigateToDetails} />
+  );
+};
+```
+
+### 2. **useRoute**
+O `useRoute` é um hook que fornece acesso ao objeto `route` da tela. Esse hook permite acessar parâmetros passados para a tela via navegação.
+
+```javascript
+import { useRoute } from '@react-navigation/native';
+
+const MyComponent = () => {
+  const route = useRoute();
+  const { itemId, otherParam } = route.params;
+
+  return (
+    <Text>Item ID: {itemId}</Text>
+  );
+};
+```
+
+### 3. **useIsFocused**
+O `useIsFocused` é um hook que retorna um valor booleano indicando se a tela está atualmente focada. Esse hook é útil para fazer algo quando a tela ganha ou perde o foco, como iniciar ou parar animações.
+
+```javascript
+import { useIsFocused } from '@react-navigation/native';
+
+const MyComponent = () => {
+  const isFocused = useIsFocused();
+
+  useEffect(() => {
+    if (isFocused) {
+      // A tela está focada, pode carregar dados, iniciar animações, etc.
+    }
+  }, [isFocused]);
+
+  return (
+    <Text>{isFocused ? 'Tela Focada' : 'Tela Não Focada'}</Text>
+  );
+};
+```
+
+### 4. **useBackButton**
+O `useBackButton` permite gerenciar o comportamento do botão "voltar" no dispositivo Android ou o botão de navegação. Ele permite adicionar funcionalidades personalizadas ao comportamento do botão de voltar, como navegar para a tela anterior ou evitar que a navegação volte.
+
+```javascript
+import { useBackButton } from '@react-navigation/native';
+
+const MyComponent = () => {
+  useBackButton(() => {
+    console.log('Botão Voltar pressionado!');
+    // Impedir o comportamento padrão ou customizar
+    return true;
+  });
+
+  return <Text>Pressione o botão Voltar</Text>;
+};
+```
+
+### 5. **useFocusEffect**
+O `useFocusEffect` é semelhante ao `useEffect`, mas é executado sempre que a tela ganha foco (diferente de `useEffect`, que é executado apenas uma vez após a montagem do componente).
+
+```javascript
+import { useFocusEffect } from '@react-navigation/native';
+
+const MyComponent = () => {
+  useFocusEffect(
+    React.useCallback(() => {
+      console.log('Tela ganhou foco!');
+      return () => {
+        console.log('Tela perdeu o foco!');
+      };
+    }, [])
+  );
+
+  return <Text>Tela com efeito de foco</Text>;
+};
+```
+
+### 6. **useLinking**
+O `useLinking` permite configurar a navegação de link profundo (deep linking). Ele fornece hooks para configurar como os links são gerenciados no aplicativo. Usado principalmente para integração com links externos (como URLs), mas também pode ser útil para configurar navegação interna.
+
+```javascript
+import { useLinking } from '@react-navigation/native';
+
+const MyComponent = () => {
+  const { getInitialURL, getPathFromState } = useLinking();
+
+  useEffect(() => {
+    async function checkURL() {
+      const url = await getInitialURL();
+      console.log(url);
+    }
+    checkURL();
+  }, []);
+
+  return <Text>Linking no React Navigation</Text>;
+};
+```
+
+### 7. **useNavigationState**
+O `useNavigationState` permite acessar e manipular o estado de navegação atual. Isso é útil quando você precisa acessar informações sobre o estado atual da navegação, como qual é a tela ativa ou o histórico de navegação.
+
+```javascript
+import { useNavigationState } from '@react-navigation/native';
+
+const MyComponent = () => {
+  const routeIndex = useNavigationState(state => state.index);
+
+  return <Text>Índice da rota atual: {routeIndex}</Text>;
+};
+```
+
+---
+
+## Exemplo de uso
+```jsx
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import HomeScreen from './HomeScreen';
+import DetailsScreen from './DetailsScreen';
+
+const Stack = createStackNavigator();
+
+const App = () => (
+  <NavigationContainer>
+    <Stack.Navigator initialRouteName="Home">
+      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Details" component={DetailsScreen} />
+    </Stack.Navigator>
+  </NavigationContainer>
+);
+```
+
+---
+
+# Começando
+
+## Instalação
+
+### Pré-requisitos
 
 - Node.js
 - Watchman (recomendado para macOS)
 - Android Studio e/ou Xcode (para compilar os apps)
 - Expo (virtualização de um celular)
 
-## Como instalar
+### Como instalar
 
-1. **Instalar a CLI do React Native**:
-
-```bash
-npx react-native init MyApp
-```
-
-2. **Executar o app**:
-
-Para iOS:
+1. **Instalar o Expo CLI**:
 
 ```bash
-npx react-native run-ios
+npx create-expo-app@latest my-project
 ```
 
-Para Android:
+1. **Executar o app**:
+
+Entre no diretório do projeto:
 
 ```bash
-npx react-native run-android
+cd my-project
 ```
 
----
-
-# Componentes Básicos
-## 1. `View`
-Container básico que suporta layout com flexbox, estilo, toques e outros controles de interface do usuário.
-```jsx
-import { View } from 'react-native';
-
-const App = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    {/* Conteúdo aqui */}
-  </View>
-);
+Inicie o app:
+```bash
+npx expo start
 ```
 
-## 2. `Text`
-Usado para exibir texto na tela.
-```jsx
-import { Text } from 'react-native';
+### Estrutura de Pastas do Projeto
 
-const App = () => <Text>Hello, World!</Text>;
+```bash
+my-project/ 
+└── src/ # Código fonte
+	├── add/ # Arquivos para telas diferentes 
+	├── assets/ # Imagens e outros arquivos estáticos 
+	├── components/ # Componentes em React Native
+	├── storage/ # Arquivos para guardar no cache (AsyncStorage)
+	└── styles/ # Arquivos para estilização 
+├── package.json # Lista de dependências e scripts 
+└── ...
 ```
 
-## 3. `Image`
-Exibe uma imagem, seja local ou da internet.
-```jsx
-import { Image } from 'react-native';
+### Criando Index principal
 
-const App = () => (
-  <Image source={{ uri: 'https://example.com/image.png' }} style={{ width: 100, height: 100 }} />
-);
+Arquivo que contem tela inicial do seu aplicativo:
+
+`src/app/index/index.tsx` 
+```tsx
+import { Text, View } from "react-native";
+
+export default function Index() {
+	return (
+		<View>
+			<Text>Hello World</Text>
+		</View>
+	)
+}
 ```
 
-## 4. `TextInput`
-Caixa de texto para entrada de dados.
-```jsx
-import { TextInput } from 'react-native';
 
-const App = () => (
-  <TextInput placeholder="Digite algo" style={{ borderWidth: 1, padding: 10 }} />
-);
-```
+### Criando layout
 
-## 5. `ScrollView`
-Componente de rolagem para exibir conteúdos longos.
-```jsx
-import { ScrollView, Text } from 'react-native';
-
-const App = () => (
-  <ScrollView>
-    <Text>Texto longo aqui...</Text>
-  </ScrollView>
-);
-```
-
-## 6. `Button`
-Botão simples que pode disparar ações ao ser pressionado.
-```jsx
-import { Button } from 'react-native';
-
-const App = () => <Button title="Press me" onPress={() => alert('Pressed!')} />;
-```
-
-# Componentes Avançados
-
-## 1. **FlatList e SectionList**
-
-- **FlatList** é ideal para listas grandes e performáticas, com recursos como carregamento sob demanda (scroll infinito) e controle de performance.
-- **SectionList** funciona bem para listas agrupadas, especialmente quando há necessidade de dividir a lista em seções, como categorias.
+Arquivo padrão aplicado em todos os arquivos
 
 ```tsx
-import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { Stack } from "expo-router";
+import { colors } from "../styles/colors";
 
-const data = [
-  { id: '1', title: 'Item 1' },
-  { id: '2', title: 'Item 2' },
-  { id: '3', title: 'Item 3' },
-];
+export default function Layout() {
+    const backgroundColor = colors.gray[900]
 
-export default function App() {
-  return (
-    <FlatList
-      data={data}
-      keyExtractor={(item) => item.id}
-      renderItem={({ item }) => (
-        <View>
-          <Text>{item.title}</Text>
-        </View>
-      )}
-    />
-  );
-}
-
-```
-
-## 2. **Reanimated**
-
-- A biblioteca **Reanimated** permite criar animações complexas e fluidas. É ideal para animações baseadas em gestos, e você pode usá-la em conjunto com a biblioteca Gesture Handler.
-- Oferece uma abordagem baseada em "worklets", que são executados diretamente na camada de UI nativa, melhorando a performance das animações.
-
-Instale o pacote:
-
-```bash
-npm install react-native-reanimated
-```
-
-```tsx
-import React from 'react';
-import { Button } from 'react-native';
-import Animated, { useSharedValue, useAnimatedStyle, withSpring } from 'react-native-reanimated';
-
-export default function App() {
-  const offset = useSharedValue(0);
-
-  const animatedStyle = useAnimatedStyle(() => {
-    return {
-      transform: [{ translateX: offset.value }],
-    };
-  });
-
-  return (
-    <>
-      <Animated.View style={[{ width: 100, height: 100, backgroundColor: 'blue' }, animatedStyle]} />
-      <Button onPress={() => (offset.value = withSpring(offset.value === 0 ? 100 : 0))} title="Move" />
-    </>
-  );
-}
-
-```
-
-## 3. **React Native Gesture Handler**
-
-- Para gestos como _swipe_, _pinch_, e _drag_, o **React Native Gesture Handler** permite detectar esses gestos com mais precisão e performance.
-- Muito útil para criar componentes como carrosséis, sliders, e botões de swipe.
-
-Instale o pacote:
-```bash
-npm install react-native-gesture-handler
-```
-
-Exemplo com um gesto de arraste:
-
-```jsx
-import React from 'react';
-import { View, Text } from 'react-native';
-import { GestureDetector, Gesture } from 'react-native-gesture-handler';
-
-export default function App() {
-  const dragGesture = Gesture.Pan()
-    .onUpdate((event) => {
-      console.log(event.translationX, event.translationY);
-    });
-
-  return (
-    <GestureDetector gesture={dragGesture}>
-      <View style={{ width: 100, height: 100, backgroundColor: 'red' }}>
-        <Text>Drag me</Text>
-      </View>
-    </GestureDetector>
-  );
+    return <Stack screenOptions={{
+        headerShown: false,
+        contentStyle: {backgroundColor},
+    }}/>
 }
 ```
 
 
-## 4. **Drawer Navigator e Bottom Tabs (React Navigation)**
-
-- Para navegação avançada, o **React Navigation** oferece várias opções, como Drawer Navigator para menus laterais e Bottom Tabs para criar navegação tabulada na parte inferior.
-- Permite a criação de rotas aninhadas e navegação condicional, importante para fluxos complexos.
-
-Instale o pacote:
-```bash
-npm install @react-navigation/native @react-navigation/drawer
-```
-
-Exemplo de navegação com drawer:
-
-```jsx
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createDrawerNavigator } from '@react-navigation/drawer';
-import { Text } from 'react-native';
-
-const HomeScreen = () => <Text>Home Screen</Text>;
-const SettingsScreen = () => <Text>Settings Screen</Text>;
-
-const Drawer = createDrawerNavigator();
-
-export default function App() {
-  return (
-    <NavigationContainer>
-      <Drawer.Navigator>
-        <Drawer.Screen name="Home" component={HomeScreen} />
-        <Drawer.Screen name="Settings" component={SettingsScreen} />
-      </Drawer.Navigator>
-    </NavigationContainer>
-  );
-}
-```
-
-## 5. **Animated API**
-
-- A API **Animated** do React Native é ideal para criar animações suaves de transformações de objetos, cores, opacidade e posições.
-- Com ela, é possível criar animações de rotação, deslizamento, expansão e até efeitos visuais mais complexos.
-
-
-```jsx
-import React, { useRef } from 'react';
-import { View, Animated, Button } from 'react-native';
-
-export default function App() {
-  const fadeAnim = useRef(new Animated.Value(0)).current;
-
-  const fadeIn = () => {
-    Animated.timing(fadeAnim, {
-      toValue: 1,
-      duration: 1000,
-      useNativeDriver: true,
-    }).start();
-  };
-
-  return (
-    <View>
-      <Animated.View style={{ opacity: fadeAnim, width: 100, height: 100, backgroundColor: 'blue' }} />
-      <Button title="Fade In" onPress={fadeIn} />
-    </View>
-  );
-}
-```
-
-
-## 6. **Modals e ActionSheets**
-
-- Para criar _pop-ups_ ou menus temporários, você pode usar componentes de Modal do React Native ou pacotes como o **React Native ActionSheet**.
-- O Modal é útil para janelas de confirmação ou formulários, enquanto o ActionSheet é ideal para opções de seleção rápidas.
-
-Exemplo usando o componente Modal:
-
-```jsx
-import React, { useState } from 'react';
-import { View, Text, Button, Modal } from 'react-native';
-
-export default function App() {
-  const [modalVisible, setModalVisible] = useState(false);
-
-  return (
-    <View>
-      <Button title="Show Modal" onPress={() => setModalVisible(true)} />
-      <Modal visible={modalVisible} transparent={true}>
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(0,0,0,0.5)' }}>
-          <Text>Modal Content</Text>
-          <Button title="Close" onPress={() => setModalVisible(false)} />
-        </View>
-      </Modal>
-    </View>
-  );
-}
-```
-
-## 7. **Camera e Media Library**
-
-- Para acessar a câmera e a galeria de fotos, use bibliotecas como **React Native Camera** ou **React Native Image Picker**.
-- Isso permite funcionalidades de captura de imagem, vídeo e seleção de mídia com opções de customização.
-
-Instale o pacote:
-```bash
-npm install react-native-image-picker
-```
-
-Exemplo de uso de câmera:
-
-```jsx
-import React from 'react';
-import { Button, Image } from 'react-native';
-import { launchCamera } from 'react-native-image-picker';
-
-export default function App() {
-  const [photo, setPhoto] = React.useState(null);
-
-  const takePhoto = () => {
-    launchCamera({ mediaType: 'photo' }, (response) => {
-      if (response.assets) {
-        setPhoto(response.assets[0].uri);
-      }
-    });
-  };
-
-  return (
-    <>
-      <Button title="Take Photo" onPress={takePhoto} />
-      {photo && <Image source={{ uri: photo }} style={{ width: 100, height: 100 }} />}
-    </>
-  );
-}
-```
-
-
-## 8. **Maps**
-
-- Para integração com mapas, o **React Native Maps** permite exibir mapas com marcações, geolocalização e rotas.
-- É útil para aplicações que envolvem localização, como aplicativos de entrega ou de transporte.
-
-Instale o pacote:
-```bash
-npm install react-native-maps
-```
-
-Exemplo de mapa básico:
-
-```jsx
-import React from 'react';
-import MapView, { Marker } from 'react-native-maps';
-
-export default function App() {
-  return (
-    <MapView style={{ flex: 1 }} initialRegion={{ latitude: 37.78825, longitude: -122.4324, latitudeDelta: 0.0922, longitudeDelta: 0.0421 }}>
-      <Marker coordinate={{ latitude: 37.78825, longitude: -122.4324 }} title="Marker" description="Description" />
-    </MapView>
-  );
-}
-```
-
-
-## 9. **WebView**
-
-- Quando precisar renderizar conteúdo da web, o **React Native WebView** permite incorporar páginas web diretamente no aplicativo.
-- É útil para exibir documentos, vídeos externos ou até módulos interativos como chatbots.
-
-Instale o pacote:
-```bash
-npm install react-native-webview
-```
-
-Exemplo de WebView:
-
-```jsx
-import React from 'react';
-import { WebView } from 'react-native-webview';
-
-export default function App() {
-  return <WebView source={{ uri: 'https://reactnative.dev/' }} style={{ flex: 1 }} />;
-}
-```
-
-
-## 10. **SVG e Gráficos (React Native SVG)**
-
-- A biblioteca **React Native SVG** permite trabalhar com gráficos vetoriais. Combinada com bibliotecas como **Victory Native** ou **Recharts**, você pode criar gráficos e visualizações de dados interativas.
-
-Instale o pacote:
-```bash
-npm install react-native-svg
-```
-
-Exemplo de SVG:
-
-```jsx
-import React from 'react';
-import Svg, { Circle } from 'react-native-svg';
-
-export default function App() {
-  return (
-    <Svg height="100" width="100">
-      <Circle cx="50" cy="50" r="45" stroke="blue" strokeWidth="2.5" fill="green" />
-    </Svg>
-  );
-}
-```
-
-
----
-
-# Estilização
+## Estilização
 O React Native usa um sistema de estilo similar ao CSS, mas com algumas diferenças. A propriedade `style` pode ser usada em qualquer componente, e os estilos são passados como objetos JavaScript.
 
 ### Exemplo:
@@ -598,37 +443,7 @@ const App = () => (
 
 ---
 
-# Navegação
-Para navegação entre telas, o React Native utiliza a biblioteca `react-navigation`.
-
-### Instalação:
-```bash
-npm install @react-navigation/native
-npm install @react-navigation/stack
-```
-
-### Exemplo de uso:
-```jsx
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './HomeScreen';
-import DetailsScreen from './DetailsScreen';
-
-const Stack = createStackNavigator();
-
-const App = () => (
-  <NavigationContainer>
-    <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="Details" component={DetailsScreen} />
-    </Stack.Navigator>
-  </NavigationContainer>
-);
-```
-
----
-
-## API nativa
+# API nativa
 O React Native permite que você use APIs nativas como a câmera, GPS e armazenamento. Isso pode ser feito através de bibliotecas de terceiros ou escrevendo módulos nativos personalizados.
 
 ### Exemplo de acesso à câmera com a biblioteca `react-native-camera`:
@@ -647,27 +462,29 @@ const App = () => (
 );
 ```
 
+### [[Componentes React Native#API Nativas|Todas as API's Nativas]]
+
 ---
 
-## Debugging
-### Ferramentas de Debugging:
+# Debugging
+## Ferramentas de Debugging:
 - **React Developer Tools**: Para inspecionar componentes React.
 - **Console.log**: Pode ser usado diretamente no código.
 - **Remote Debugging**: Conectar o app ao Chrome DevTools para debugar código JavaScript.
 - **React Native Debugger**: Ferramenta completa que combina DevTools com funcionalidades de Redux.
 
-### Exemplo:
+## Exemplo:
 Para habilitar o Debugging remoto, abra o Dev Menu (`Cmd+D` no iOS ou `Cmd+M` no Android) e selecione "Debug".
 
 ---
 
-## Publicação
-### iOS:
+# Publicação
+## iOS:
 1. Configure sua conta de desenvolvedor Apple.
 2. No Xcode, configure as informações de assinatura.
 3. Gere um **.ipa** e publique na App Store via App Store Connect.
 
-### Android:
+## Android:
 1. Gere uma **keystore** para assinar seu aplicativo.
 2. Atualize o arquivo `gradle.properties` com as credenciais da keystore.
 3. Execute o build:
@@ -678,10 +495,10 @@ Para habilitar o Debugging remoto, abra o Dev Menu (`Cmd+D` no iOS ou `Cmd+M` no
 
 ---
 
-## Bibliotecas Externas
+# Bibliotecas Externas
 React Native possui uma vasta gama de bibliotecas externas para diversas funcionalidades.
 
-### Algumas bibliotecas populares:
+## Algumas bibliotecas populares:
 - **Axios**: Para chamadas HTTP.
   ```bash
   npm install axios
