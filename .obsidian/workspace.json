@@ -24,13 +24,14 @@
             "id": "aed455f6160ae487",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": false
+                "file": "React Native/React native.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (data.json)"
+              "icon": "lucide-file",
+              "title": "React native"
             }
           }
         ],
@@ -200,6 +201,8 @@
   },
   "active": "aed455f6160ae487",
   "lastOpenFiles": [
+    "Coisas par adicionar porque não tenho tempo.md",
+    "React Native/Componentes React Native.md",
     "conflict-files-obsidian-git.md",
     "React Native/imagens/Componentes React Native.png",
     "React Native/imagens",

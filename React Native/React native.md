@@ -1,4 +1,4 @@
-DWQQCQW
+
 # Começando
 
 React Native é uma estrutura para construir aplicativos móveis nativos usando JavaScript e React. Ele permite que você crie aplicativos para **iOS** e **Android** com um único código base.
