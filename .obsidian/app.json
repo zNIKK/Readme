@@ -4,5 +4,11 @@
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "showRibbon": true
+  "showRibbon": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "autoPairMarkdown": true
 }
