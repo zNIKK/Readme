@@ -20,8 +20,22 @@
               "icon": "lucide-file",
               "title": "Começando um projeto"
             }
+          },
+          {
+            "id": "f36d489347a15ba6",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (conflict-files-obsidian-git)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,11 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "React Native/Começando um projeto.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Sumário de Começando um projeto"
+              "title": "Sumário"
             }
           },
           {
@@ -189,11 +201,12 @@
       "obsidian-kanban:Criar um novo quadro": false
     }
   },
-  "active": "80464990a4f91b59",
+  "active": "f36d489347a15ba6",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "React Native/Começando um projeto.md",
     "React Native/Componentes React Native.md",
     "React Native/React native.md",
-    "React Native/Começando um projeto.md",
     "React Native/Sem título.md",
     "React Native/\"Componentes.md",
     "React Native/Componentes-React-Native.md",
