@@ -13,41 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Native/React native.md",
+                "file": "React Native/Começando um projeto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React native"
-            }
-          },
-          {
-            "id": "779cb426badc3f98",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": true
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (data.json)"
-            }
-          },
-          {
-            "id": "26d004f728e34f64",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.6"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "Começando um projeto"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Native/React native.md"
+                "file": "React Native/Começando um projeto.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de React native"
+              "title": "Sumário de Começando um projeto"
             }
           },
           {
@@ -215,10 +189,12 @@
       "obsidian-kanban:Criar um novo quadro": false
     }
   },
-  "active": "779cb426badc3f98",
+  "active": "80464990a4f91b59",
   "lastOpenFiles": [
-    "React Native/React native.md",
     "React Native/Componentes React Native.md",
+    "React Native/React native.md",
+    "React Native/Começando um projeto.md",
+    "React Native/Sem título.md",
     "React Native/\"Componentes.md",
     "React Native/Componentes-React-Native.md",
     "React Native/Componentes.md",
