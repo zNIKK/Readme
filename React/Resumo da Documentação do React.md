@@ -1,3 +1,6 @@
+---
+sticker: ""
+---
 
 ## Introdução ao React
 

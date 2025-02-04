@@ -97,7 +97,6 @@ O React Navigation usa um conceito de **navegação por pilha** (stack navigatio
 ### **Configuração de um Stack Navigator**
 
 O `Stack Navigator` permite navegação entre diferentes telas de maneira linear. Veja como configurar:
-
 ```jsx
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';

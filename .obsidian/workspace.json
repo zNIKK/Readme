@@ -21,17 +21,17 @@
             }
           },
           {
-            "id": "aed455f6160ae487",
+            "id": "4de56e7e847bbfc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJs.md",
+                "file": "Linux/Backups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NodeJs"
+              "title": "Backups"
             }
           }
         ],
@@ -199,13 +199,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a3e3370e97d4c5b",
+  "active": "4de56e7e847bbfc3",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "NodeJs.md",
+    "Vault.md",
+    "NodeJS/NodeJs.md",
+    "NodeJS/NodeJS.md",
+    "NodeJS",
+    "Linux/Backups.md",
+    "Como começar um projeto/Como Começar um Projeto em React.md",
     "React Native/Começando um projeto.md",
     "React Native/React native.md",
     "React Native/Componentes React Native.md",
     "Coisas par adicionar porque não tenho tempo.md",
-    "conflict-files-obsidian-git.md",
     "React Native/imagens/Componentes React Native.png",
     "React Native/imagens",
     "React Native"

@@ -10,5 +10,6 @@
   "foldHeading": true,
   "showLineNumber": false,
   "rightToLeft": false,
-  "autoPairMarkdown": true
+  "autoPairMarkdown": true,
+  "tabSize": 2
 }
