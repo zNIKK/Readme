@@ -1,37 +1,37 @@
 {
   "main": {
-    "id": "4636d923551867ad",
+    "id": "0657eabfd0801c71",
     "type": "split",
     "children": [
       {
-        "id": "4338b243b8affdde",
+        "id": "b06f18d48c3cae99",
         "type": "tabs",
         "children": [
           {
-            "id": "ea482c83ee87d2c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React Native/Começando um projeto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Começando um projeto"
-            }
-          },
-          {
-            "id": "f36d489347a15ba6",
+            "id": "f9307164079d3feb",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               },
               "icon": "git-pull-request",
-              "title": "Diff View (conflict-files-obsidian-git)"
+              "title": "Diff View (workspace.json)"
+            }
+          },
+          {
+            "id": "aed455f6160ae487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NodeJs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NodeJs"
             }
           }
         ],
@@ -41,15 +41,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "28b13b23eef4550a",
+    "id": "1c6d4298ed6641b8",
     "type": "split",
     "children": [
       {
-        "id": "6a827ebc78964277",
+        "id": "436a63f1e346f398",
         "type": "tabs",
         "children": [
           {
-            "id": "7f5198a9223e371c",
+            "id": "9a3e3370e97d4c5b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,16 +57,16 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
-            "id": "8f6f1c9368d50d51",
+            "id": "f8ca7b8dd196f355",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Componentes",
+                "query": "node",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,17 +74,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           },
           {
-            "id": "fc8d2e662e26d759",
+            "id": "13098555dc388359",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -94,20 +94,19 @@
     "width": 300
   },
   "right": {
-    "id": "af68ee68871175bc",
+    "id": "61d9834d9cd7cee2",
     "type": "split",
     "children": [
       {
-        "id": "ddbee3572921f7d9",
+        "id": "1740130c632091f6",
         "type": "tabs",
         "children": [
           {
-            "id": "79b601d69dae10ac",
+            "id": "00f7113590ab5cfd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Native/React native.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,25 +116,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para React native"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "e536d4ab098f264c",
+            "id": "187c345def591243",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Native/React native.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para React native"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "f6eabe195f2dd2c5",
+            "id": "bdb75aa196ce06c7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,7 +146,7 @@
             }
           },
           {
-            "id": "d89b4e9534962201",
+            "id": "a8cf92458566a5af",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -162,17 +160,17 @@
             }
           },
           {
-            "id": "6076ca76bf7985df",
+            "id": "7c1e882e068e5814",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {},
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Outline"
             }
           },
           {
-            "id": "80464990a4f91b59",
+            "id": "40616d950e88d168",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -190,42 +188,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-kanban:Create new board": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Criar um novo quadro": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "f36d489347a15ba6",
+  "active": "9a3e3370e97d4c5b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "React Native/Começando um projeto.md",
-    "React Native/Componentes React Native.md",
     "React Native/React native.md",
-    "React Native/Sem título.md",
-    "React Native/\"Componentes.md",
-    "React Native/Componentes-React-Native.md",
-    "React Native/Componentes.md",
-    "React Native/dwqdqwdwComponentes React Native.md",
-    "React Native/[.md",
-    "React Native/imagens/Componentes React Native.png",
-    "React Native/View.md",
-    "Sem título.canvas",
-    "2024-11-04.md",
-    "Git e Github/Git.md",
-    "SSH Server.md",
-    "React Native/imagens",
-    "React Native",
+    "React Native/Componentes React Native.md",
     "Coisas par adicionar porque não tenho tempo.md",
-    "Como Começar um Projeto.md",
-    "Cracks.md",
-    "NodeJs.md",
-    "Next/ANÁLISE E DESENVOLVIMENTO DE SISTEMAS.md",
-    "Next/Next.md"
+    "conflict-files-obsidian-git.md",
+    "React Native/imagens/Componentes React Native.png",
+    "React Native/imagens",
+    "React Native"
   ]
 }
