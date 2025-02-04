@@ -54,3 +54,16 @@
 ## Desvantagens
 - **CPU-bound tasks**: Não é ideal para tarefas que exigem muita CPU, pois o modelo de thread único pode sofrer com bloqueios.
 
+# Módulos
+
+## Backend
+
+### HTTP
+
+```js
+import http from 'node:http'
+```
+
+- Para construir aplicações HTTP 
+- Criar rotas **GET**, **POST**...
+

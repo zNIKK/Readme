@@ -4,7 +4,6 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
         "id": "b06f18d48c3cae99",
         "type": "tabs",
         "children": [
@@ -12,40 +11,14 @@
             "id": "f9307164079d3feb",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
-            }
-          },
-          {
-            "id": "4de56e7e847bbfc3",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Backups.md",
+                "file": "NodeJS/NodeJs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backups"
-=======
-        "id": "f357deb11803f4ee",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a74b32cee0ece19e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
->>>>>>> origin/main
+              "title": "NodeJs"
             }
           }
         ]
@@ -79,11 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
                 "query": "node",
-=======
-                "query": "",
->>>>>>> origin/main
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,19 +72,8 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "94b42f6b779344df",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,7 +99,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
@@ -192,9 +150,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "NodeJS/NodeJs.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of NodeJs"
             }
           },
           {
@@ -212,76 +172,44 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-kanban:Create new board": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-git:Open Git source control": false,
-<<<<<<< HEAD
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4de56e7e847bbfc3",
+  "active": "f9307164079d3feb",
   "lastOpenFiles": [
+    "NodeJS/Começando projeto em NodeJS.md",
+    "NodeJS/NodeJs.md",
+    "202502041937.md",
+    "Recording 20250204193652.m4a",
+    "NodeJS/Untitled Kanban 1.md",
+    "NodeJS/Untitled Kanban.md",
+    "NodeJS/NodeJS.md",
+    "Linux/Backups.md",
     "conflict-files-obsidian-git.md",
     "NodeJs.md",
     "Vault.md",
-    "NodeJS/NodeJs.md",
-    "NodeJS/NodeJS.md",
     "NodeJS",
-    "Linux/Backups.md",
     "Como começar um projeto/Como Começar um Projeto em React.md",
     "React Native/Começando um projeto.md",
     "React Native/React native.md",
     "React Native/Componentes React Native.md",
     "Coisas par adicionar porque não tenho tempo.md",
     "React Native/imagens/Componentes React Native.png",
-=======
-      "obsidian-kanban:Criar um novo quadro": false,
-      "obsidian-importer:Open Importer": false
-    }
-  },
-  "active": "a74b32cee0ece19e",
-  "lastOpenFiles": [
-    "NodeJS/NodeJs.md",
-    "NodeJS/NodeJS.md",
-    "NodeJS",
-    "Sem título.md",
-    "React Native/React native.md",
-    "React/Resumo da Documentação do React.md",
-    "Resumo da Documentação do React.md",
-    "Como Começar um Projeto.md",
-    "React Native/Começando um projeto.md",
-    "Next/Next.md",
-    "React Native/PRIMARY.md",
-    "Next/ANÁLISE E DESENVOLVIMENTO DE SISTEMAS.md",
-    "GoF/Padrões de projetos GoF.md",
-    "Git e Github/Git.md",
-    "Docker/Docker.md",
-    "Kanban sem título.md",
-    "React Native/Componentes React Native.md",
-    "React Native/React Native 1.md",
-    "Pm2/Pm2.md",
-    "Como começar um projeto/Como Começar um Projeto em React.md",
-    "Começando um projeto.md",
-    "SSH Server.md",
-    "Tailwind/Tailwind.md",
-    "Ubuntu Server/Ubuntu Server.md",
-    "Coisas par adicionar porque não tenho tempo.md",
-    "Como começar um projeto/Como Começar um Projeto.md",
-    "Cracks.md",
-    "React Native/imagens/Componentes React Native.png",
-    "GoF/Pasted image 20230816102435.png",
-    "Sem título.canvas",
-    "Tags",
->>>>>>> origin/main
     "React Native/imagens",
     "React Native"
   ]
