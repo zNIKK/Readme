@@ -1,8 +1,10 @@
 {
   "accentColor": "",
-  "baseFontSize": 16,
+  "baseFontSize": 19,
   "theme": "obsidian",
-  "cssTheme": "Dracula for Obsidian",
-  "baseFontSizeAction": false,
-  "interfaceFontFamily": "Arial"
+  "cssTheme": "Blue Topaz",
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "Arial",
+  "nativeMenus": true,
+  "showViewHeader": true
 }

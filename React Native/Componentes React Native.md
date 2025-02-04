@@ -1,3 +1,7 @@
+---
+sticker: ""
+color: ""
+---
 
 # Componentes de interfaces
 ## 1. `View`
