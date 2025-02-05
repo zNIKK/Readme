@@ -54,3 +54,12 @@
 ## Desvantagens
 - **CPU-bound tasks**: Não é ideal para tarefas que exigem muita CPU, pois o modelo de thread único pode sofrer com bloqueios.
 
+# Módulos
+
+## Backend
+
+### [[Modulos em NodeJS#🌐 HTTP|HTTP]]
+
+
+
+

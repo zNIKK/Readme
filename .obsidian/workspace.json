@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJS/NodeJs.md",
+                "file": "NodeJS/Modulos em NodeJS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NodeJs"
+              "title": "Modulos em NodeJS"
             }
           }
         ]
@@ -163,10 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NodeJS/NodeJs.md"
+                "file": "NodeJS/Modulos em NodeJS.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de NodeJs"
+              "title": "Sumário de Modulos em NodeJS"
             }
           },
           {
@@ -200,10 +200,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "a74b32cee0ece19e",
+  "active": "6076ca76bf7985df",
   "lastOpenFiles": [
-    "NodeJS/NodeJS.md",
     "NodeJS/NodeJs.md",
+    "NodeJS/Modulos em NodeJS.md",
+    "HTTP.md",
+    "NodeJS/HTTP.md",
+    "NodeJS/Começando projeto em NodeJS.md",
+    "conflict-files-obsidian-git.md",
+    "NodeJS/NodeJS.md",
     "NodeJS",
     "Sem título.md",
     "React Native/React native.md",
@@ -224,11 +229,6 @@
     "Como começar um projeto/Como Começar um Projeto em React.md",
     "Começando um projeto.md",
     "SSH Server.md",
-    "Tailwind/Tailwind.md",
-    "Ubuntu Server/Ubuntu Server.md",
-    "Coisas par adicionar porque não tenho tempo.md",
-    "Como começar um projeto/Como Começar um Projeto.md",
-    "Cracks.md",
     "React Native/imagens/Componentes React Native.png",
     "GoF/Pasted image 20230816102435.png",
     "Sem título.canvas",
